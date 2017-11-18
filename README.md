@@ -1,6 +1,6 @@
 # script.skin.helper.service
 Modified version of [marcelveldt/script.skin.helper.service](https://github.com/marcelveldt/script.skin.helper.service) - a helper service for Kodi skins  
-Forked from v1.0.100 and modified to re-enable **"Goto Series Level"** option in contextual menu of TV Series in latest version of Kodi (Krypton).  
+Forked from v1.0.100 and modified to re-enable **"Goto Series Level"** option in contextual menu of TV Series in latest version of Kodi (Krypton). 
 Incremented version number to 2.0 to prevent Kodi from updating/overwriting this version with the original plugin.
 
 Original readme for v1.0.100:
