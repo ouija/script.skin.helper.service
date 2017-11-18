@@ -1,49 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="2.0" provider-name="ouija">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.3" provider-name="ouija">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
-		<import addon="script.module.pil" version="1.1.7"/>
-		<import addon="script.module.requests" version="2.3.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0"/>
 	</requires>
-	
+
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
-            <item library="resources\lib\ContextMenu_animatedart.py">
-              <label>32175</label>
-              <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_animatedart)) + [Container.Content(movies) + Skin.HasSetting(SkinHelper.EnableAnimatedPosters) + !IsEmpty(ListItem.IMDBNumber)]</visible>
+            <item library="resources\lib\context_animatedart.py">
+              <label>32024</label>
+              <visible>!IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
             </item>
-            <item library="resources\lib\ContextMenu_pvr.py">
-                <label>32120</label>
+            <item library="resources\lib\context_pvr.py">
+                <label>32023</label>
                 <description>PVR artwork Configuration</description>
-                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_pvr)) + [Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)] + Skin.HasSetting(SkinHelper.EnablePVRThumbs)</visible>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) + 
+                    [Window.IsActive(MyPVRChannels.xml) | 
+                    Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | 
+                    Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
+                </visible>
             </item>
-            <item library="resources\lib\ContextMenu_music.py">
-                <label>32122</label>
+            <item library="resources\lib\context_music.py">
+                <label>32023</label>
                 <description>Music artwork Configuration</description>
-                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_music)) + [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]</visible>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) + 
+                    [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
+                </visible>
             </item>
-            <item library="resources\lib\ContextMenu_serieslevel.py">
-                <label>32072</label>
+            <item library="resources\lib\context_serieslevel.py">
+                <label>32026</label>
                 <description>Display Series level button in next/recent/in progress episodes listings</description>
-                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_series)) + Container.Content(episodes) + !StringCompare(Container.ListItem(0).TvShowTitle,Container.ListItem(1).TvShowTitle)</visible>
+                <visible>Container.Content(episodes) + !StringCompare(Container.ListItem(0).TvShowTitle,Container.ListItem(1).TvShowTitle)</visible>
             </item>
         </menu>
 	</extension>
-    
+
     <extension point="xbmc.python.library" library="default.py" />
-	<extension point="xbmc.python.pluginsource" library="plugin.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+    </extension>
 	<extension library="service.py" point="xbmc.service" start="login" />
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Helper service for Kodi skins</summary>
-        <description>Helper service for Kodi skins</description>
+		<summary lang="en">Helper service for Kodi skins w/Go to Series re-enabled</summary>
+        <description>Helper service for Kodi skins w/Go to Series re-enabled</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<forum>ttps://forum.kodi.tv/showthread.php?tid=295046#pid2669383</forum>
 		<website></website>
 		<source>https://github.com/ouija/script.skin.helper.service</source>
 	</extension>
