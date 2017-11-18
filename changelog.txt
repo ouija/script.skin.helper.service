@@ -1,3 +1,7 @@
+v2.0
+- FIX broken xbmc.executebuiltin call for goto series level contextual link
+  (thanks to triddin @ https://forum.kodi.tv/showthread.php?tid=295046&pid=2480531#pid2480531)
+
 v.1.0.84
 - FIX optimize shutdown requests
 - FIX additional properties for home backgrounds

@@ -18,7 +18,7 @@ retries = Retry(total=5, backoff_factor=1, status_forcelist=[ 500, 502, 503, 504
 s.mount('http://', HTTPAdapter(max_retries=retries))
 s.mount('https://', HTTPAdapter(max_retries=retries))
 
-m.set_useragent("script.skin.helper.service", "1.0.0", "https://github.com/marcelveldt/script.skin.helper.service")
+m.set_useragent("script.skin.helper.service", "1.0.0", "https://github.com/ouija/script.skin.helper.service")
 tmdb_apiKey = "ae06df54334aa653354e9a010f4b81cb"
 
 def getPVRThumbs(title,channel,type="channels",path="",genre="",year="",ignoreCache=False, manualLookup=False, override=None):

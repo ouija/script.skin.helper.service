@@ -1,7 +1,7 @@
 ﻿# Kodi language file
 # Addon Name: Skin Helper Service
 # Addon id: script.skin.helper.service
-# Addon Provider: marcelveldt
+# Addon Provider: ouija
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC-Addons\n"

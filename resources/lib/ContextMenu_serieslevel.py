@@ -13,4 +13,4 @@ if __name__ == '__main__':
         json_result = getJSON('VideoLibrary.GetEpisodeDetails','{ "episodeid": %d, "properties": [ "tvshowid" ] }' %(int(dbId)))
         if json_result:
             path = "videodb://tvshows/titles/%s/" %str(json_result["tvshowid"])
-            xbmc.executebuiltin("ActivateWindow(Video,%s,return)" %path)
+            xbmc.executebuiltin("ActivateWindow(Videos,%s,return)" %path)
