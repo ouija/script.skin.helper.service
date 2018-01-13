@@ -5,7 +5,7 @@ Modified version of [marcelveldt/script.skin.helper.service](https://github.com/
 
 Forked from latest v1.1.3 release and modified to re-enable **"Go to Series Level"** option in TV Series contextual menu with latest version of Kodi (Krypton). 
 
-Update: Added additional **"Search in Exodus"** contextual menu option to movies and tv shows! *(requires Exodus v4.2.01+)*
+Update: Added additional **"Search in Exodus"** contextual menu option for movies and tv shows! *(requires Exodus v4.2.01+)*
 
 ________________________________________________________________________________________________________
 
