@@ -125,5 +125,9 @@ msgid "RCB Most played games"
 msgstr ""
 
 msgctxt "#32026"
-msgid "Go to Series Level"
+msgid "Up to Series Level"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Search in Exodus"
 msgstr ""

@@ -32,11 +32,21 @@
                     [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
                 </visible>
             </item>
+            <item library="resources\lib\context_search_tvshow_exodus.py">
+                <label>32027</label>
+                <description>Display Search in Exodus button in episodes listings</description>
+                <visible>System.HasAddon(plugin.video.exodus) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
+            </item>
+            <item library="resources\lib\context_search_movies_exodus.py">
+                <label>32027</label>
+                <description>Display Search in Exodus button in movies listings</description>
+                <visible>System.HasAddon(plugin.video.exodus) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
+            </item>
             <item library="resources\lib\context_serieslevel.py">
                 <label>32026</label>
                 <description>Display Series level button in next/recent/in progress episodes listings</description>
-                <visible>Container.Content(episodes) + !StringCompare(Container.ListItem(0).TvShowTitle,Container.ListItem(1).TvShowTitle)</visible>
-            </item>
+                <visible>Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle) + !String.StartsWith(Container.FolderPath,videodb://tvshows/)</visible>
+            </item>            
         </menu>
 	</extension>
 

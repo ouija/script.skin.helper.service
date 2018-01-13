@@ -117,5 +117,9 @@ msgid "Select Animated Art"
 msgstr "Seleziona Art Animato"
 
 msgctxt "#32026"
-msgid "Go to Series Level"
+msgid "Up to Series Level"
 msgstr "Vai alla serie TV"
+
+msgctxt "#32027"
+msgid "Search in Exodus"
+msgstr "Cerca in Exodus"
