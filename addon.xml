@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.3" provider-name="ouija">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.24" provider-name="ouija">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.simplecache" version="1.0.0"/>
         <import addon="script.module.metadatautils" version="1.0.0"/>
+        <import addon="script.module.cherrypy" version="11.0.0"/>
 	</requires>
 
     <extension point="kodi.context.item">
@@ -48,6 +49,8 @@
                 <visible>Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle) + !String.StartsWith(Container.FolderPath,videodb://tvshows/)</visible>
             </item>            
         </menu>
+    </extension>
+        </menu>
 	</extension>
 
     <extension point="xbmc.python.library" library="default.py" />
@@ -56,12 +59,12 @@
 	<extension library="service.py" point="xbmc.service" start="login" />
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Helper service for Kodi skins w/Go to Series re-enabled</summary>
-        <description>Helper service for Kodi skins w/Go to Series re-enabled</description>
+		<summary lang="en">Helper service for Kodi skins w/context menus</summary>
+        <description>Helper service for Kodi skins w/context menus</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
-		<forum>ttps://forum.kodi.tv/showthread.php?tid=295046#pid2669383</forum>
+		<forum>https://forum.kodi.tv/showthread.php?tid=295046#pid2669383</forum>
 		<website></website>
 		<source>https://github.com/ouija/script.skin.helper.service</source>
 	</extension>
