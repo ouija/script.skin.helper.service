@@ -127,3 +127,7 @@ msgstr "Cerca in Exodus"
 msgctxt "#32028"
 msgid "Search in Incursion"
 msgstr "Cerca in Incursion"
+
+msgctxt "#32029"
+msgid "Search in Genesis Reborn"
+msgstr "Cerca in Genesis Reborn"

@@ -135,3 +135,7 @@ msgstr ""
 msgctxt "#32028"
 msgid "Search in Incursion"
 msgstr ""
+
+msgctxt "#32029"
+msgid "Search in Genesis Reborn"
+msgstr ""

@@ -140,3 +140,7 @@ msgstr "Szukaj w Exodus"
 msgctxt "#32028"
 msgid "Search in Incursion"
 msgstr "Szukaj w Incursion"
+
+msgctxt "#32029"
+msgid "Search in Genesis Reborn"
+msgstr "Szukaj w Genesis Reborn"

@@ -57,7 +57,17 @@
                 <label>32028</label>
                 <description>Display Search in Incursion button in movies listings</description>
                 <visible>System.HasAddon(plugin.video.incursion) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
-            </item>            
+            </item>
+            <item library="resources\lib\context_search_tvshow_genesisreborn.py">
+                <label>32029</label>
+                <description>Display Search in Genesis Reborn button in episodes listings</description>
+                <visible>System.HasAddon(plugin.video.genesisreborn) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
+            </item>
+            <item library="resources\lib\context_search_movies_genesisreborn.py">
+                <label>32029</label>
+                <description>Display Search in Genesis Reborn button in movies listings</description>
+                <visible>System.HasAddon(plugin.video.genesisreborn) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
+            </item>                     
         </menu>
 	</extension>
 

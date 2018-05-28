@@ -8,7 +8,6 @@
 import xbmc
 from utils import kodi_json, log_msg
 
-#Kodi contextmenu item to go to the series level from a listing with episodes from multiple shows like in progress, recent etc.
 if __name__ == '__main__':
     
     dbId = xbmc.getInfoLabel("ListItem.DBID")

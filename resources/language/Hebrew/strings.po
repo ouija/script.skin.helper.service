@@ -140,3 +140,7 @@ msgstr "חיפוש באקסודוס"
 msgctxt "#32028"
 msgid "Search in Incursion"
 msgstr "חיפוש בפלישה"
+
+msgctxt "#32029"
+msgid "Search in Genesis Reborn"
+msgstr "חיפוש בבראשית נולד מחדש"
