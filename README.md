@@ -6,7 +6,7 @@ Modified version of [marcelveldt/script.skin.helper.service](https://github.com/
 * Forked from latest v1.1.24 release *(dd398c9/03.30.18)*
 * Re-enabled **"Go to Series Level"** option in TV Series contextual menu
 * Added **"Search in Exodus"** contextual menu option for movies and tv shows! *(requires Exodus v4.2.01+)*
-* Added **"Search in Incursion"** contextual menu option for movies and tv shows! *(requires Exodus v0.1.17+)*
+* Added **"Search in Incursion"** contextual menu option for movies and tv shows! *(requires Incursion v0.1.17+)*
 
 ________________________________________________________________________________________________________
 
