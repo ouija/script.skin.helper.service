@@ -133,6 +133,10 @@ msgctxt "#32027"
 msgid "Search in Exodus"
 msgstr "Buscar en Exodus"
 
+msgctxt "#32028"
+msgid "Search in Incursion"
+msgstr "Buscar en Incursion"
+
 #~ msgctxt "#32008"
 #~ msgid ""
 #~ "To get the most out of this skin, it is suggested to install a resource "

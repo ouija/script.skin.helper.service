@@ -131,3 +131,7 @@ msgstr ""
 msgctxt "#32027"
 msgid "Search in Exodus"
 msgstr ""
+
+msgctxt "#32028"
+msgid "Search in Incursion"
+msgstr ""

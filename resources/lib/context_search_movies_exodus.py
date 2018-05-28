@@ -2,7 +2,7 @@
 
 '''
     script.skin.helper.service
-    Contextmenu for go to the series level
+    Contextmenu for movie search with exodus plugin
 '''
 
 import xbmc
@@ -25,4 +25,4 @@ if __name__ == '__main__':
             #xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.exodus",return)')
             #xbmc.sleep(5000)
             #xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.exodus/?action=tvshowPage&url=http://api.trakt.tv/search/show?limit=20&page=1&query=%s",return)' %showtitle)
-            exec_exodus = kodi_json("Addons.ExecuteAddon", { "addonid": "plugin.video.exodus", "params" : { "action": "moviePage", "url": "plugin://plugin.video.exodus/?action=moviePage&url=http%3A%2F%2Fapi.trakt.tv%2Fsearch%2Fmovie%3Flimit%3D20%26page%3D1%26query%3D"+title} })
+            exec_plugin = kodi_json("Addons.ExecuteAddon", { "addonid": "plugin.video.exodus", "params" : { "action": "moviePage", "url": "plugin://plugin.video.exodus/?action=moviePage&url=http%3A%2F%2Fapi.trakt.tv%2Fsearch%2Fmovie%3Flimit%3D20%26page%3D1%26query%3D"+title} })

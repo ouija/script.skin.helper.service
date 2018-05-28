@@ -136,3 +136,7 @@ msgstr "עבור לסדרת הטלוויזיה"
 msgctxt "#32027"
 msgid "Search in Exodus"
 msgstr "חיפוש באקסודוס"
+
+msgctxt "#32028"
+msgid "Search in Incursion"
+msgstr "חיפוש בפלישה"

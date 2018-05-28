@@ -123,3 +123,7 @@ msgstr "Vai alla serie TV"
 msgctxt "#32027"
 msgid "Search in Exodus"
 msgstr "Cerca in Exodus"
+
+msgctxt "#32028"
+msgid "Search in Incursion"
+msgstr "Cerca in Incursion"
