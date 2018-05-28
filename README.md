@@ -3,9 +3,11 @@
 # script.skin.helper.service
 Modified version of [marcelveldt/script.skin.helper.service](https://github.com/marcelveldt/script.skin.helper.service) - a helper service for Kodi skins  
 
-Forked from latest v1.1.3 release and modified to re-enable **"Go to Series Level"** option in TV Series contextual menu with latest version of Kodi (Krypton). 
-
-Update: Added additional **"Search in Exodus"** contextual menu option for movies and tv shows! *(requires Exodus v4.2.01+)*
+* Forked from latest v1.1.24 release *(dd398c9/03.30.18)*
+* Re-enabled **"Go to Series Level"** option in TV Series contextual menu
+* Added **"Search in Exodus"** contextual menu option for movies/tv shows! *(requires [Exodus v4.2.01+](https://www.technadu.com/exodus-kodi-addon/6536/))*
+* Added **"Search in Incursion"** contextual menu option for movie/tv shows! *(requires [Incursion v0.1.17+](https://www.technadu.com/incursion-kodi-addon/21700/))*
+* Added **"Search in Genesis Reborn"** contextual menu option for movies/tv shows! *(requires [Genesis Reborn 2018.05.23+](https://www.technadu.com/genesis-reborn-kodi-add-on/7115/))*
 
 ________________________________________________________________________________________________________
 

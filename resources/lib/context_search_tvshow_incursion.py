@@ -2,7 +2,7 @@
 
 '''
     script.skin.helper.service
-    Contextmenu for tv show search with exodus plugin
+    Contextmenu for tv show search with incursion plugin
 '''
 
 import xbmc
@@ -24,4 +24,4 @@ if __name__ == '__main__':
             #xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.exodus",return)')
             #xbmc.sleep(5000)
             #xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.exodus/?action=tvshowPage&url=http://api.trakt.tv/search/show?limit=20&page=1&query=%s",return)' %showtitle)
-            exec_plugin = kodi_json("Addons.ExecuteAddon", { "addonid": "plugin.video.exodus", "params" : { "action": "tvshowPage", "url": "http%3A%2F%2Fapi.trakt.tv%2Fsearch%2Fshow%3Flimit%3D20%26page%3D1%26query%3D"+showtitle} })
+            exec_plugin = kodi_json("Addons.ExecuteAddon", { "addonid": "plugin.video.incursion", "params" : { "action": "tvshowPage", "url": "http%3A%2F%2Fapi.trakt.tv%2Fsearch%2Fshow%3Flimit%3D20%26page%3D1%26query%3D"+showtitle} })

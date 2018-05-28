@@ -1,7 +1,7 @@
 # Kodi language file
 # Addon Name: Skin Helper Service
 # Addon id: script.skin.helper.service
-# Addon Provider: ouija
+# Addon Provider: marcelveldt
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC-Addons\n"
@@ -123,3 +123,11 @@ msgstr "Aller au niveau des Séries TV"
 msgctxt "#32027"
 msgid "Search in Exodus"
 msgstr "Recherche dans Exodus"
+
+msgctxt "#32028"
+msgid "Search in Incursion"
+msgstr "Recherche dans Incursion"
+
+msgctxt "#32029"
+msgid "Search in Genesis Reborn"
+msgstr "Recherche dans Genesis Reborn"
