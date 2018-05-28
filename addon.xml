@@ -47,9 +47,7 @@
                 <label>32026</label>
                 <description>Display Series level button in next/recent/in progress episodes listings</description>
                 <visible>Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle) + !String.StartsWith(Container.FolderPath,videodb://tvshows/)</visible>
-            </item>            
-        </menu>
-    </extension>
+            </item> 
         </menu>
 	</extension>
 
@@ -59,12 +57,12 @@
 	<extension library="service.py" point="xbmc.service" start="login" />
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Helper service for Kodi skins w/context menus</summary>
-        <description>Helper service for Kodi skins w/context menus</description>
+		<summary lang="en">Helper service for Kodi skins (ouija version)</summary>
+        <description>Helper service for Kodi skins (ouija version)</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
-		<forum>https://forum.kodi.tv/showthread.php?tid=295046#pid2669383</forum>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
 		<website></website>
 		<source>https://github.com/ouija/script.skin.helper.service</source>
 	</extension>
