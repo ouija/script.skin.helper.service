@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.24" provider-name="ouija">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="2.0" provider-name="ouija">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -34,40 +34,50 @@
                 </visible>
             </item>
             <item library="resources\lib\context_serieslevel.py">
-                <label>32026</label>
+                <label>32027</label>
                 <description>Display Series level button in next/recent/in progress episodes listings</description>
                 <visible>Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle) + !String.StartsWith(Container.FolderPath,videodb://tvshows/)</visible>
-            </item> 
+            </item>
             <item library="resources\lib\context_search_tvshow_exodus.py">
-                <label>32027</label>
+                <label>32028</label>
                 <description>Display Search in Exodus button in episodes listings</description>
                 <visible>System.HasAddon(plugin.video.exodus) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
             </item>
             <item library="resources\lib\context_search_movies_exodus.py">
-                <label>32027</label>
+                <label>32028</label>
                 <description>Display Search in Exodus button in movies listings</description>
                 <visible>System.HasAddon(plugin.video.exodus) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
-            </item>
-            <item library="resources\lib\context_search_tvshow_incursion.py">
-                <label>32028</label>
-                <description>Display Search in Incursion button in episodes listings</description>
-                <visible>System.HasAddon(plugin.video.incursion) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
-            </item>
-            <item library="resources\lib\context_search_movies_incursion.py">
-                <label>32028</label>
-                <description>Display Search in Incursion button in movies listings</description>
-                <visible>System.HasAddon(plugin.video.incursion) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
-            </item>
-            <item library="resources\lib\context_search_tvshow_genesisreborn.py">
+            </item> 
+            <item library="resources\lib\context_search_tvshow_venom.py">
                 <label>32029</label>
-                <description>Display Search in Genesis Reborn button in episodes listings</description>
-                <visible>System.HasAddon(plugin.video.genesisreborn) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
+                <description>Display Search in Venom button in episodes listings</description>
+                <visible>System.HasAddon(plugin.video.venom) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
             </item>
-            <item library="resources\lib\context_search_movies_genesisreborn.py">
+            <item library="resources\lib\context_search_movies_venom.py">
                 <label>32029</label>
-                <description>Display Search in Genesis Reborn button in movies listings</description>
-                <visible>System.HasAddon(plugin.video.genesisreborn) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
-            </item>                     
+                <description>Display Search in Venom button in movies listings</description>
+                <visible>System.HasAddon(plugin.video.venom) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
+            </item>
+            <item library="resources\lib\context_search_tvshow_scrubs.py">
+                <label>32030</label>
+                <description>Display Search in Scrubs v2 button in episodes listings</description>
+                <visible>System.HasAddon(plugin.video.scrubsv2) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
+            </item>
+            <item library="resources\lib\context_search_movies_scrubs.py">
+                <label>32030</label>
+                <description>Display Search in Scrubs v2 button in movies listings</description>
+                <visible>System.HasAddon(plugin.video.scrubsv2) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
+            </item>            
+            <item library="resources\lib\context_search_tvshow_exodusredux.py">
+                <label>32031</label>
+                <description>Display Search in ExodusRedux button in episodes listings</description>
+                <visible>System.HasAddon(plugin.video.exodusredux) + Container.Content(episodes) + !IsEmpty(Container().ListItem(0).TVShowTitle)</visible>
+            </item>
+            <item library="resources\lib\context_search_movies_exodusredux.py">
+                <label>32031</label>
+                <description>Display Search in ExodusRedux button in movies listings</description>
+                <visible>System.HasAddon(plugin.video.exodusredux) + Container.Content(movies) + !ListItem.IsParentFolder</visible>
+            </item>                    
         </menu>
 	</extension>
 

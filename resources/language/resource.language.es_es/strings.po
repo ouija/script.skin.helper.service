@@ -125,21 +125,25 @@ msgctxt "#32024"
 msgid "Select Animated Art"
 msgstr "Seleccionar Arte Animada"
 
-msgctxt "#32026"
+msgctxt "#32027"
 msgid "Up to Series Level"
 msgstr "Nivel de serie"
 
-msgctxt "#32027"
+msgctxt "#32028"
 msgid "Search in Exodus"
 msgstr "Buscar en Exodus"
 
-msgctxt "#32028"
-msgid "Search in Incursion"
-msgstr "Buscar en Incursion"
-
 msgctxt "#32029"
-msgid "Search in Genesis Reborn"
-msgstr "Buscar en Genesis Reborn"
+msgid "Search in Venom"
+msgstr "Buscar en Venom"
+
+msgctxt "#32030"
+msgid "Search in Scrubs v2"
+msgstr "Buscar en Scrubs v2"
+
+msgctxt "#32031"
+msgid "Search in ExodusRedux"
+msgstr "Buscar en ExodusRedux"
 
 #~ msgctxt "#32008"
 #~ msgid ""

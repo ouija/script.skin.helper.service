@@ -120,22 +120,26 @@ msgctxt "#32025"
 msgid "Use submenu as widget"
 msgstr ""
 
-msgctxt "#32025"
+msgctxt "#32026"
 msgid "RCB Most played games"
 msgstr ""
 
-msgctxt "#32026"
+msgctxt "#32027"
 msgid "Up to Series Level"
 msgstr ""
 
-msgctxt "#32027"
+msgctxt "#32028"
 msgid "Search in Exodus"
 msgstr ""
 
-msgctxt "#32028"
-msgid "Search in Incursion"
+msgctxt "#32029"
+msgid "Search in Venom"
 msgstr ""
 
-msgctxt "#32029"
-msgid "Search in Genesis Reborn"
+msgctxt "#32030"
+msgid "Search in Scrubs v2"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Search in ExodusRedux"
 msgstr ""

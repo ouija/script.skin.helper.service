@@ -1,17 +1,16 @@
 ![icon](fanart.jpg) 
 
 # script.skin.helper.service
-Modified version of [marcelveldt/script.skin.helper.service](https://github.com/marcelveldt/script.skin.helper.service) - a helper service for Kodi skins  
+Modified version of [kodi-community-addons/script.skin.helper.service](https://github.com/kodi-community-addons/script.skin.helper.service) - a helper service for Kodi skins  
 
-* Forked from latest v1.1.24 release *(dd398c9/03.30.18)*
+* Forked from [commit #6b8a82e](https://github.com/kodi-community-addons/script.skin.helper.service/commit/6b8a82e3ba97bbcba8c44eece0a4ca93bf4c571b) *(02.24.19)*
 * Re-enabled **"Go to Series Level"** option in TV Series contextual menu
-* Added **"Search in Exodus"** contextual menu option for movies/tv shows! *(requires [Exodus v4.2.01+](https://www.technadu.com/exodus-kodi-addon/6536/))*
-* Added **"Search in Incursion"** contextual menu option for movie/tv shows! *(requires [Incursion v0.1.17+](https://www.technadu.com/incursion-kodi-addon/21700/))*
-* Added **"Search in Genesis Reborn"** contextual menu option for movies/tv shows! *(requires [Genesis Reborn 2018.05.23+](https://www.technadu.com/genesis-reborn-kodi-add-on/7115/))*
-
+* Added **"Search in Venom"** contextual menu option for movies/tv shows! *(requires [Venom v2.9.7+](https://123venom.github.io/))*
+* Added **"Search in Scrubs v2"** contextual menu option for movie/tv shows! *(requires [Scrubs v2 v4.4.5+](https://jewbmx.github.io/))*
+* Added **"Search in ExodusRedux"** contextual menu option for movie/tv shows! *(requires [ExodusRedux v2.0.3a+](https://i-a-c.github.io/))*
 ________________________________________________________________________________________________________
 
 
 All original documentation for this addon can be found in the online wiki:
 
-https://github.com/marcelveldt/script.skin.helper.service/wiki
+https://github.com/kodi-community-addons/script.skin.helper.service/wiki

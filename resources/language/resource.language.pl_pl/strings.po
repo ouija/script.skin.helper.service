@@ -129,18 +129,22 @@ msgctxt "#32025"
 msgid "RCB Most played games"
 msgstr "Gry ulubione"
 
-msgctxt "#32026"
+msgctxt "#32027"
 msgid "Up to Series Level"
 msgstr "Przejdź do serii TV"
 
-msgctxt "#32027"
+msgctxt "#32028"
 msgid "Search in Exodus"
 msgstr "Szukaj w Exodus"
 
-msgctxt "#32028"
-msgid "Search in Incursion"
-msgstr "Szukaj w Incursion"
-
 msgctxt "#32029"
-msgid "Search in Genesis Reborn"
-msgstr "Szukaj w Genesis Reborn"
+msgid "Search in Venom"
+msgstr "Szukaj w Venom"
+
+msgctxt "#32030"
+msgid "Search in Scrubs v2"
+msgstr "Szukaj w Scrubs v2"
+
+msgctxt "#32031"
+msgid "Search in ExodusRedux"
+msgstr "Szukaj w ExodusRedux"
