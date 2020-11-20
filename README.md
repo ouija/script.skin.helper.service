@@ -1,7 +1,9 @@
 ![icon](fanart.jpg) 
 
 # script.skin.helper.service
-Modified version of [kodi-community-addons/script.skin.helper.service](https://github.com/kodi-community-addons/script.skin.helper.service) - a helper service for Kodi skins  
+Modified version of [kodi-community-addons/script.skin.helper.service](https://github.com/kodi-community-addons/script.skin.helper.service) - a helper service for Kodi skins
+
+Please consider [donating](https://paypal.me/djouija) to support this project. Thanks!
 
 * Forked from [commit #6b8a82e](https://github.com/kodi-community-addons/script.skin.helper.service/commit/6b8a82e3ba97bbcba8c44eece0a4ca93bf4c571b) *(02.24.19)*
 * Re-enabled **"Go to Series Level"** option in TV Series contextual menu
